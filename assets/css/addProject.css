@@ -1,0 +1,55 @@
+body{
+    background-image: url(/images/fond6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+   font-size: 80px!important;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(255, 255, 255)!important;
+}
+
+section{
+   display: block;
+   justify-content: center;
+   margin-top: 350px;
+}
+
+form{
+    color: rgb(255, 255, 255);
+ 
+}
+
+form div{
+    margin: 20px;  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form label{
+    font-size: xx-large;
+}
+
+input{
+  font-size: x-large;
+  
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-danger{
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: black;
+    width: 40%;
+    margin: auto;
+}

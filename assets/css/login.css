@@ -1,0 +1,33 @@
+body{
+    background-image: url(/images/fond6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+   font-size: 80px!important;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(255, 255, 255)!important;
+}
+
+section{
+   display: flex;
+   justify-content: center;
+   font-size: x-large;
+   text-align: right;
+   margin-top: 400px;
+}
+
+form{
+    color: rgb(255, 255, 255);
+}
+
+form div{
+    margin: 20px;  
+}
+
+form label{
+    font-size: xx-large;
+}

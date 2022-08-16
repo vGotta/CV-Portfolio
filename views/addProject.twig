@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/css/addProject.css">
+		<title>addProject</title>
+	</head>
+	<body>
+
+		<h1>Ajout du Projet</h1>
+		<section>
+			{% for error in errors %}
+				<div class="text-danger">
+					{{error.message}}
+				</div>
+			{% endfor %}
+			<form enctype="multipart/form-data" action="/addProject" method="post">
+				<div class="mb-3">
+					<input type="text" id="title" name="title" placeholder="Titre">
+				</div>
+				<div class="mb-3">
+					<textarea name="description" id="description" cols="38" rows="10" placeholder="Description"></textarea>
+				</div>
+				<div class="mb-3 form-check">
+					<input type="text" class="form-check-input" id="exampleCheck1" name="link" placeholder="Liens vers GitHub">
+				</div>
+				<div class="mb-3 form-check">
+					<input type="file" class="form-check-input" id="image" name="image">
+				</div>
+				<div id="btn">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</form>
+		</section>
+	</body>
+</html>
